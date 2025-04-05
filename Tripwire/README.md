@@ -16,6 +16,21 @@ Additionally, we learned how to use programming languages like Python in conjunc
 ### Part 1: Create Record File
 
 To create a record file, run the script with the folder path and record file name as arguments:
-
-```bash
 python TripWire.py /path/to/your/folder TripwireRecord.txt
+
+### Part 2: Check File System Integrity
+To check the file system integrity, run the script with the record file name as an argument:
+python TripWire.py TripwireRecord.txt
+
+The script will output lists of missing, added, and modified files.
+
+## Functions
+GetFileList(): Lists files in the specified folder.
+GetHash(fileName): Calculates the MD5 hash of a file.
+WriteRecordFile(): Writes the folder path and file hashes to the record file.
+CreateTable(): Reads the record file and organizes data into a table.
+SortBuckets(): Sorts files into missing, added, and possibly modified categories.
+CheckIfModified(): Checks if files have been modified based on their hashes.
+GetFolderPath(): Retrieves the folder path from the record file.
+Error Handling
+The script includes error handling for file reading and writing operations, ensuring robustness and reliability.
