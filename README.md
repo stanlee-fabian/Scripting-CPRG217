@@ -5,11 +5,11 @@ The course introduced me to computer system scripting concepts and techniques. I
 
 The topics covered in this course are:
 
-Introduction to Scripting – Produce a script with basic functionality
-Error Handling – Demonstrate error handling techniques
-Programming Techniques – Apply data types to process and organize data
-Scripting System Tasks in Linux – Create a tool to standardize system tasks using existing modules in Linux
-Scripting System Tasks in Windows – Create a tool to standardize system tasks using existing modules in Windows
-Working with Data – Develop script to utilize common data structure standards
-Automating System Tasks – Automate system tasks in a scalable fashion using a scripting language
-Ansible for Network Automation – Automate a series of tasks using Python in conjunction with Ansible
+Introduction to Scripting – Produce a script with basic functionality <br>
+Error Handling – Demonstrate error handling techniques <br>
+Programming Techniques – Apply data types to process and organize data <br>
+Scripting System Tasks in Linux – Create a tool to standardize system tasks using existing modules in Linux <br>
+Scripting System Tasks in Windows – Create a tool to standardize system tasks using existing modules in Windows <br>
+Working with Data – Develop script to utilize common data structure standards <br>
+Automating System Tasks – Automate system tasks in a scalable fashion using a scripting language <br>
+Ansible for Network Automation – Automate a series of tasks using Python in conjunction with Ansible <br>
