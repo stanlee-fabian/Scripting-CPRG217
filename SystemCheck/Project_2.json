@@ -1,0 +1,871 @@
+{
+  "machine_name": "stanlee-virtual-machine",
+  "users_and_groups": [
+    [
+      "_apt",
+      [
+        "nogroup"
+      ]
+    ],
+    [
+      "avahi",
+      [
+        "avahi"
+      ]
+    ],
+    [
+      "avahi-autoipd",
+      [
+        "avahi-autoipd"
+      ]
+    ],
+    [
+      "backup",
+      [
+        "backup"
+      ]
+    ],
+    [
+      "bin",
+      [
+        "bin"
+      ]
+    ],
+    [
+      "colord",
+      [
+        "colord"
+      ]
+    ],
+    [
+      "cups-pk-helper",
+      [
+        "lpadmin"
+      ]
+    ],
+    [
+      "daemon",
+      [
+        "daemon"
+      ]
+    ],
+    [
+      "dnsmasq",
+      [
+        "nogroup"
+      ]
+    ],
+    [
+      "fwupd-refresh",
+      [
+        "fwupd-refresh"
+      ]
+    ],
+    [
+      "games",
+      [
+        "games"
+      ]
+    ],
+    [
+      "gdm",
+      [
+        "gdm"
+      ]
+    ],
+    [
+      "geoclue",
+      [
+        "geoclue"
+      ]
+    ],
+    [
+      "gnats",
+      [
+        "gnats"
+      ]
+    ],
+    [
+      "gnome-initial-setup",
+      [
+        "nogroup"
+      ]
+    ],
+    [
+      "hplip",
+      [
+        "lp"
+      ]
+    ],
+    [
+      "irc",
+      [
+        "irc"
+      ]
+    ],
+    [
+      "kernoops",
+      [
+        "nogroup"
+      ]
+    ],
+    [
+      "list",
+      [
+        "list"
+      ]
+    ],
+    [
+      "lp",
+      [
+        "lp"
+      ]
+    ],
+    [
+      "mail",
+      [
+        "mail"
+      ]
+    ],
+    [
+      "man",
+      [
+        "man"
+      ]
+    ],
+    [
+      "messagebus",
+      [
+        "messagebus"
+      ]
+    ],
+    [
+      "news",
+      [
+        "news"
+      ]
+    ],
+    [
+      "nm-openvpn",
+      [
+        "nm-openvpn"
+      ]
+    ],
+    [
+      "nobody",
+      [
+        "nogroup"
+      ]
+    ],
+    [
+      "proxy",
+      [
+        "proxy"
+      ]
+    ],
+    [
+      "pulse",
+      [
+        "audio",
+        "pulse"
+      ]
+    ],
+    [
+      "root",
+      [
+        "root"
+      ]
+    ],
+    [
+      "rtkit",
+      [
+        "rtkit"
+      ]
+    ],
+    [
+      "saned",
+      [
+        "saned",
+        "scanner"
+      ]
+    ],
+    [
+      "speech-dispatcher",
+      [
+        "audio"
+      ]
+    ],
+    [
+      "sssd",
+      [
+        "sssd"
+      ]
+    ],
+    [
+      "stanlee",
+      [
+        "adm",
+        "cdrom",
+        "dip",
+        "lpadmin",
+        "lxd",
+        "plugdev",
+        "sambashare",
+        "stanlee",
+        "sudo"
+      ]
+    ],
+    [
+      "sync",
+      [
+        "nogroup"
+      ]
+    ],
+    [
+      "sys",
+      [
+        "sys"
+      ]
+    ],
+    [
+      "syslog",
+      [
+        "adm",
+        "syslog"
+      ]
+    ],
+    [
+      "systemd-network",
+      [
+        "systemd-network"
+      ]
+    ],
+    [
+      "systemd-oom",
+      [
+        "systemd-oom"
+      ]
+    ],
+    [
+      "systemd-resolve",
+      [
+        "systemd-resolve"
+      ]
+    ],
+    [
+      "systemd-timesync",
+      [
+        "systemd-timesync"
+      ]
+    ],
+    [
+      "tcpdump",
+      [
+        "tcpdump"
+      ]
+    ],
+    [
+      "tss",
+      [
+        "tss"
+      ]
+    ],
+    [
+      "usbmux",
+      [
+        "plugdev"
+      ]
+    ],
+    [
+      "uucp",
+      [
+        "uucp"
+      ]
+    ],
+    [
+      "uuidd",
+      [
+        "uuidd"
+      ]
+    ],
+    [
+      "whoopsie",
+      [
+        "whoopsie"
+      ]
+    ],
+    [
+      "www-data",
+      [
+        "www-data"
+      ]
+    ]
+  ],
+  "cpu_info": {
+    "vendor_id": "AuthenticAMD",
+    "model": "AMD Ryzen 9 6900HX with Radeon Graphics",
+    "cache_size": "512 KB"
+  },
+  "services_status": [
+    {
+      "name": "accounts-daemon.service",
+      "status": "running"
+    },
+    {
+      "name": "acpid.service",
+      "status": "running"
+    },
+    {
+      "name": "alsa-restore.service",
+      "status": "exited"
+    },
+    {
+      "name": "alsa-state.service",
+      "status": "dead"
+    },
+    {
+      "name": "anacron.service",
+      "status": "dead"
+    },
+    {
+      "name": "apparmor.service",
+      "status": "exited"
+    },
+    {
+      "name": "apport-autoreport.service",
+      "status": "dead"
+    },
+    {
+      "name": "apport.service",
+      "status": "exited"
+    },
+    {
+      "name": "apt-daily-upgrade.service",
+      "status": "dead"
+    },
+    {
+      "name": "apt-daily.service",
+      "status": "dead"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "avahi-daemon.service",
+      "status": "running"
+    },
+    {
+      "name": "bluetooth.service",
+      "status": "running"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "colord.service",
+      "status": "running"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "console-setup.service",
+      "status": "exited"
+    },
+    {
+      "name": "cron.service",
+      "status": "running"
+    },
+    {
+      "name": "cups-browsed.service",
+      "status": "running"
+    },
+    {
+      "name": "cups.service",
+      "status": "running"
+    },
+    {
+      "name": "dbus.service",
+      "status": "running"
+    },
+    {
+      "name": "dmesg.service",
+      "status": "dead"
+    },
+    {
+      "name": "dpkg-db-backup.service",
+      "status": "dead"
+    },
+    {
+      "name": "e2scrub_all.service",
+      "status": "dead"
+    },
+    {
+      "name": "e2scrub_reap.service",
+      "status": "dead"
+    },
+    {
+      "name": "emergency.service",
+      "status": "dead"
+    },
+    {
+      "name": "fstrim.service",
+      "status": "dead"
+    },
+    {
+      "name": "fwupd-refresh.service",
+      "status": "dead"
+    },
+    {
+      "name": "fwupd.service",
+      "status": "running"
+    },
+    {
+      "name": "gdm.service",
+      "status": "running"
+    },
+    {
+      "name": "geoclue.service",
+      "status": "running"
+    },
+    {
+      "name": "getty-static.service",
+      "status": "dead"
+    },
+    {
+      "name": "getty@tty1.service",
+      "status": "dead"
+    },
+    {
+      "name": "gpu-manager.service",
+      "status": "dead"
+    },
+    {
+      "name": "grub-common.service",
+      "status": "dead"
+    },
+    {
+      "name": "grub-initrd-fallback.service",
+      "status": "dead"
+    },
+    {
+      "name": "irqbalance.service",
+      "status": "running"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "kerneloops.service",
+      "status": "running"
+    },
+    {
+      "name": "keyboard-setup.service",
+      "status": "exited"
+    },
+    {
+      "name": "kmod-static-nodes.service",
+      "status": "exited"
+    },
+    {
+      "name": "logrotate.service",
+      "status": "dead"
+    },
+    {
+      "name": "man-db.service",
+      "status": "dead"
+    },
+    {
+      "name": "ModemManager.service",
+      "status": "running"
+    },
+    {
+      "name": "modprobe@configfs.service",
+      "status": "dead"
+    },
+    {
+      "name": "modprobe@drm.service",
+      "status": "dead"
+    },
+    {
+      "name": "modprobe@efi_pstore.service",
+      "status": "dead"
+    },
+    {
+      "name": "modprobe@fuse.service",
+      "status": "dead"
+    },
+    {
+      "name": "motd-news.service",
+      "status": "dead"
+    },
+    {
+      "name": "netplan-ovs-cleanup.service",
+      "status": "dead"
+    },
+    {
+      "name": "networkd-dispatcher.service",
+      "status": "running"
+    },
+    {
+      "name": "NetworkManager-wait-online.service",
+      "status": "exited"
+    },
+    {
+      "name": "NetworkManager.service",
+      "status": "running"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "open-vm-tools.service",
+      "status": "running"
+    },
+    {
+      "name": "openvpn.service",
+      "status": "exited"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "packagekit.service",
+      "status": "running"
+    },
+    {
+      "name": "plymouth-quit-wait.service",
+      "status": "exited"
+    },
+    {
+      "name": "plymouth-quit.service",
+      "status": "dead"
+    },
+    {
+      "name": "plymouth-read-write.service",
+      "status": "exited"
+    },
+    {
+      "name": "plymouth-start.service",
+      "status": "exited"
+    },
+    {
+      "name": "polkit.service",
+      "status": "running"
+    },
+    {
+      "name": "power-profiles-daemon.service",
+      "status": "running"
+    },
+    {
+      "name": "rc-local.service",
+      "status": "dead"
+    },
+    {
+      "name": "rescue.service",
+      "status": "dead"
+    },
+    {
+      "name": "rsyslog.service",
+      "status": "running"
+    },
+    {
+      "name": "rtkit-daemon.service",
+      "status": "running"
+    },
+    {
+      "name": "secureboot-db.service",
+      "status": "dead"
+    },
+    {
+      "name": "setvtrgb.service",
+      "status": "exited"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "snapd.apparmor.service",
+      "status": "exited"
+    },
+    {
+      "name": "snapd.autoimport.service",
+      "status": "dead"
+    },
+    {
+      "name": "snapd.core-fixup.service",
+      "status": "dead"
+    },
+    {
+      "name": "snapd.failure.service",
+      "status": "dead"
+    },
+    {
+      "name": "snapd.recovery-chooser-trigger.service",
+      "status": "dead"
+    },
+    {
+      "name": "snapd.seeded.service",
+      "status": "exited"
+    },
+    {
+      "name": "snapd.service",
+      "status": "running"
+    },
+    {
+      "name": "snapd.snap-repair.service",
+      "status": "dead"
+    },
+    {
+      "name": "switcheroo-control.service",
+      "status": "running"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "systemd-ask-password-console.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-ask-password-plymouth.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-ask-password-wall.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-binfmt.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-boot-system-token.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-fsck-root.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-fsck@dev-disk-by\\x2duuid-5E49\\x2d2C51.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-fsckd.service",
+      "status": "dead"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "systemd-initctl.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-journal-flush.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-journald.service",
+      "status": "running"
+    },
+    {
+      "name": "systemd-logind.service",
+      "status": "running"
+    },
+    {
+      "name": "systemd-machine-id-commit.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-modules-load.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-networkd.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-oomd.service",
+      "status": "running"
+    },
+    {
+      "name": "systemd-pstore.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-quotacheck.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-random-seed.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-remount-fs.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-resolved.service",
+      "status": "running"
+    },
+    {
+      "name": "systemd-rfkill.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-sysctl.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-sysusers.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-timesyncd.service",
+      "status": "running"
+    },
+    {
+      "name": "systemd-tmpfiles-clean.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-tmpfiles-setup-dev.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-tmpfiles-setup.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-udev-trigger.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-udevd.service",
+      "status": "running"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "systemd-update-utmp-runlevel.service",
+      "status": "dead"
+    },
+    {
+      "name": "systemd-update-utmp.service",
+      "status": "exited"
+    },
+    {
+      "name": "systemd-user-sessions.service",
+      "status": "exited"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "thermald.service",
+      "status": "dead"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "ua-reboot-cmds.service",
+      "status": "dead"
+    },
+    {
+      "name": "ua-timer.service",
+      "status": "dead"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    },
+    {
+      "name": "ubuntu-advantage.service",
+      "status": "dead"
+    },
+    {
+      "name": "udisks2.service",
+      "status": "running"
+    },
+    {
+      "name": "ufw.service",
+      "status": "exited"
+    },
+    {
+      "name": "unattended-upgrades.service",
+      "status": "running"
+    },
+    {
+      "name": "update-notifier-download.service",
+      "status": "dead"
+    },
+    {
+      "name": "update-notifier-motd.service",
+      "status": "dead"
+    },
+    {
+      "name": "upower.service",
+      "status": "running"
+    },
+    {
+      "name": "user-runtime-dir@1000.service",
+      "status": "exited"
+    },
+    {
+      "name": "user@1000.service",
+      "status": "running"
+    },
+    {
+      "name": "uuidd.service",
+      "status": "dead"
+    },
+    {
+      "name": "vgauth.service",
+      "status": "running"
+    },
+    {
+      "name": "whoopsie.service",
+      "status": "dead"
+    },
+    {
+      "name": "wpa_supplicant.service",
+      "status": "running"
+    },
+    {
+      "name": "\u25cf",
+      "status": "inactive"
+    }
+  ]
+}
