@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Update all packages to the latest version
+      apt:
+        update_cache: yes
+        upgrade: dist
+      when: ansible_os_family == "Debian"
+ 
+    - name: Create a file with my name
+      copy:
+        content: "Created by group 8 scripters"
+        dest: /home/martin/Ansible_Files/inventory
