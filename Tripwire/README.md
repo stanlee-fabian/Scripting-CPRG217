@@ -25,12 +25,13 @@ python TripWire.py TripwireRecord.txt
 The script will output lists of missing, added, and modified files.
 
 ## Functions
-GetFileList(): Lists files in the specified folder.
-GetHash(fileName): Calculates the MD5 hash of a file.
-WriteRecordFile(): Writes the folder path and file hashes to the record file.
-CreateTable(): Reads the record file and organizes data into a table.
-SortBuckets(): Sorts files into missing, added, and possibly modified categories.
-CheckIfModified(): Checks if files have been modified based on their hashes.
-GetFolderPath(): Retrieves the folder path from the record file.
-Error Handling
+GetFileList(): Lists files in the specified folder. <br>
+GetHash(fileName): Calculates the MD5 hash of a file. <br>
+WriteRecordFile(): Writes the folder path and file hashes to the record file.<br>
+CreateTable(): Reads the record file and organizes data into a table.<br>
+SortBuckets(): Sorts files into missing, added, and possibly modified categories.<br>
+CheckIfModified(): Checks if files have been modified based on their hashes.<br>
+GetFolderPath(): Retrieves the folder path from the record file.<br>
+
+## Error Handling
 The script includes error handling for file reading and writing operations, ensuring robustness and reliability.
